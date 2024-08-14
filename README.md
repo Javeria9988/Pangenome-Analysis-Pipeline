@@ -6,11 +6,11 @@ This pipeline performs a comprehensive pangenome analysis, starting from genome 
 ## Pipeline Structure
 The pipeline consists of the following steps:
 
-1. **Annotate:** Annotates the input sequences using external tools.
+1. **Annotate:** Annotates the input sequences using prokka.
 2. **Panaroo:** Identifies core and accessory genes across the annotated genomes and generates relevant outputs.
 3. **DWGSIM:** Simulates error-free reads from the input sequences.
 4. **Snippy:** Aligns sequences and calls SNPs based on the simulated reads.
-5. **Detect Stop Codons:** Identifies premature stop codons from the SNP data.
+5. **Detect Stop Codons:** Identifies premature stop codons from the SNP data using python code.
 
 ## Installation
 
