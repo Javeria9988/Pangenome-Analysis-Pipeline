@@ -12,6 +12,9 @@ The pipeline consists of the following steps:
 4. **Snippy:** Aligns sequences and calls SNPs based on the simulated reads.
 5. **Detect Stop Codons:** Identifies premature stop codons from the SNP data using python code.
 
+## Workflow
+![workflow_diagram](https://github.com/user-attachments/assets/9cf094ae-f0f8-4cdc-8c00-c5e43acfbfb6)
+
 ## Installation
 
 ### Prerequisites
