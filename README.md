@@ -33,9 +33,7 @@ To run the pipeline, use the following command:
 nextflow run main.nf -c nextflow.config -resume
 
 ### Parameters
-params.sequences: Path to the input sequences in .fa format. The default is set to 'sequences/*.fa'.The parameters in the nextflow.config file are pre-configured for the bacterium Streptococcus pneumoniae. These include settings for genome annotation, pangenome analysis, read simulation, SNP calling, and premature stop codon detection. However, these parameters can be easily modified to suit other bacterial species under study.
-
-For instance, the genome annotation parameters like kingdom, genus, and species can be adjusted based on the organism of interest.Simply update these values in the nextflow.config file according to the bacterial species you are analyzing.
+params.sequences: Path to the input sequences in .fa format. The default is set to 'sequences/*.fa'.
 
 ### Input Data
 Sequences: The pipeline expects input sequences in .fa format, located in the directory specified by the params.sequences parameter.
