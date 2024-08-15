@@ -13,7 +13,7 @@ The pipeline consists of the following steps:
 5. **Detect Stop Codons:** Identifies premature stop codons from the SNP data using python code.
 
 ## Workflow
-
+![dissertation project](https://github.com/user-attachments/assets/1af319a6-faed-4d59-b67e-201fde1bd684)
 
 ## Installation
 
