@@ -28,18 +28,7 @@ git clone https://github.com/Javeria9988/pangenome-pipeline.git
 cd pangenome-pipeline
 ```
 ### Directory structure for running pipeline
-my_nextflow_pipeline/
-├── nextflow.config           # Configuration file for the Nextflow pipeline
-├── main.nf                   # Main Nextflow script 
-├── sequences/                # Input sequences directory
-│   ├── sample1.fa            # Example sequence file
-│   └── sample2.fa            # Example sequence file
-└── modules/                  # Directory for Nextflow modules
-    ├── annotate.nf           # Nextflow script for annotate module
-    ├── panaroo.nf            # Nextflow script for panaroo module
-    ├── dwgsim.nf             # Nextflow script for dwgsim module
-    ├── snippy.nf             # Nextflow script for snippy module
-    └── detectStopCodons.nf   # Nextflow script for detectStopCodons module
+![directory_structure](https://github.com/user-attachments/assets/57d4d040-3e6f-4eb6-92fd-9e37a53ee124)
 
 ### Usage
 ### Running the Pipeline
