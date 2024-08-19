@@ -27,6 +27,20 @@ Clone the repository and navigate to the directory:
 git clone https://github.com/Javeria9988/pangenome-pipeline.git
 cd pangenome-pipeline
 ```
+### Directory structure for running pipeline
+my_nextflow_pipeline/
+├── nextflow.config           # Configuration file for the Nextflow pipeline
+├── main.nf                   # Main Nextflow script 
+├── sequences/                # Input sequences directory
+│   ├── sample1.fa            # Example sequence file
+│   └── sample2.fa            # Example sequence file
+└── modules/                  # Directory for Nextflow modules
+    ├── annotate.nf           # Nextflow script for annotate module
+    ├── panaroo.nf            # Nextflow script for panaroo module
+    ├── dwgsim.nf             # Nextflow script for dwgsim module
+    ├── snippy.nf             # Nextflow script for snippy module
+    └── detectStopCodons.nf   # Nextflow script for detectStopCodons module
+
 ### Usage
 ### Running the Pipeline
 To run the pipeline, use the following command:
