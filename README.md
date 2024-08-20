@@ -14,7 +14,7 @@ The pipeline consists of the following steps:
 6. **GeneDescription:** Adds gene product details using python code.
 
 ## Workflow
-![Screenshot from 2024-08-20 21-21-11](https://github.com/user-attachments/assets/39e6286a-f90d-4523-9a24-2cd5146c1552)
+
 
 ## Installation
 
@@ -29,7 +29,7 @@ git clone https://github.com/Javeria9988/pangenome-pipeline.git
 cd pangenome-pipeline
 ```
 ### Directory structure for running pipeline
-![directory_structure](https://github.com/user-attachments/assets/57d4d040-3e6f-4eb6-92fd-9e37a53ee124)
+![Screenshot from 2024-08-20 21-21-11](https://github.com/user-attachments/assets/b1d4c0b9-df32-4e07-902d-e387013f464b)
 
 ### Usage
 ### Running the Pipeline
