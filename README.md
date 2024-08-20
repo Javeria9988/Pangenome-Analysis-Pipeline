@@ -14,7 +14,7 @@ The pipeline consists of the following steps:
 6. **GeneDescription:** Adds gene product details using python code.
 
 ## Workflow
-![dissertation project](https://github.com/user-attachments/assets/1af319a6-faed-4d59-b67e-201fde1bd684)
+![Screenshot from 2024-08-20 21-21-11](https://github.com/user-attachments/assets/39e6286a-f90d-4523-9a24-2cd5146c1552)
 
 ## Installation
 
