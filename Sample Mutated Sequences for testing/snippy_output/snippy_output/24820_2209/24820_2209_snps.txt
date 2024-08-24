@@ -1,0 +1,10 @@
+DateTime	2024-08-24T13:08:58
+ReadFiles	/home/javeria/Downloads/summaryinpipeline/work/d6/ba46d72e3b9f9856f14979535fbf00/dwgsim_output/24820_2209_1.fq /home/javeria/Downloads/summaryinpipeline/work/d6/ba46d72e3b9f9856f14979535fbf00/dwgsim_output/24820_2209_2.fq
+Reference	/home/javeria/Downloads/summaryinpipeline/work/f3/2cd463ad1d2190e94222110bac6dc5/panaroo_output/pan_genome_reference.fa
+ReferenceSize	2033226
+Software	snippy 4.6.0
+Variant-COMPLEX	988
+Variant-DEL	31
+Variant-INS	28
+Variant-SNP	5540
+VariantTotal	6587
