@@ -34,7 +34,7 @@ cd pangenome-pipeline
 ### Usage
 ### Running the Pipeline
 To run the pipeline, use the following command:
-nextflow run main.nf -c nextflow.config -resume
+nextflow run main.nf -c nextflow.config -with-report workflow_report.html -with-trace trace.txt -with-timeline timeline.html
 
 ### Parameters
 params.sequences: Path to the input sequences in .fa format. The default is set to 'sequences/*.fa'.
