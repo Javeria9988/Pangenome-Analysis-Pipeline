@@ -64,20 +64,20 @@ This pipeline utilizes Docker containers to ensure reproducibility and consisten
    - **Description:** This container includes Panaroo, a tool for pangenome analysis, particularly focused on bacterial genomes.
 
 3. **DWGSIM:**
-   - **Container:** `biocontainers/dwgsim:v0.1.12-2-deb_cv1`
-   - **Description:** This container includes DWGSIM, a tool for getting error-free reads from genomic FASTA sequences.
+   - **Container:** `dwgsim-with-ps:latest`
+   - **Description:** This customized container includes DWGSIM, a tool for getting error-free reads from genomic FASTA sequences and ps, which is required for genration of nextflow report.
 
 4. **Snippy:**
    - **Container:** `staphb/snippy:4.6.0`
    - **Description:** This container includes Snippy, a tool for rapid bacterial SNP calling and variant detection.
 
 5. **Detect Stop Codons:**
-   - **Container:** `python-biopython-pandas:latest`
-   - **Description:** This custom container includes Python along with the Biopython and Pandas libraries, used for detecting premature stop codons and processing genomic data.
+   - **Container:** `python-biopython-pandas-ps:latest`
+   - **Description:** This custom container includes Python along with the ps, Biopython and Pandas libraries, used for detecting premature stop codons and processing genomic data.
 
 6. **Gene Description:**
-   - **Container:** `python-biopython-pandas:latest`
-   - **Description:** This custom container includes Python along with the Biopython and Pandas libraries, used for adding gene product details from panaroo generated gene_presence_absence.csv file.
+   - **Container:** `python-biopython-pandas-ps:latest`
+   - **Description:** This custom container includes Python along with the ps, Biopython and Pandas libraries, used for adding gene product details from panaroo generated gene_presence_absence.csv file.
 
 ### Usage
 To ensure that Docker is enabled, the pipeline is configured with Docker integration:
