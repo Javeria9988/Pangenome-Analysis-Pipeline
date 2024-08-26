@@ -73,11 +73,11 @@ This pipeline utilizes Docker containers to ensure reproducibility and consisten
 
 5. **Detect Stop Codons:**
    - **Container:** `python-biopython-pandas-ps:latest`
-   - **Description:** This custom container includes Python along with the ps, Biopython and Pandas libraries, used for detecting premature stop codons and processing genomic data.
+   - **Description:** This customized container includes Python along with the ps, Biopython and Pandas libraries, used for detecting premature stop codons and processing genomic data.
 
 6. **Gene Description:**
    - **Container:** `python-biopython-pandas-ps:latest`
-   - **Description:** This custom container includes Python along with the ps, Biopython and Pandas libraries, used for adding gene product details from panaroo generated gene_presence_absence.csv file.
+   - **Description:** This customized container includes Python along with the ps, Biopython and Pandas libraries, used for adding gene product details from panaroo generated gene_presence_absence.csv file.
 
 ### Usage
 To ensure that Docker is enabled, the pipeline is configured with Docker integration:
