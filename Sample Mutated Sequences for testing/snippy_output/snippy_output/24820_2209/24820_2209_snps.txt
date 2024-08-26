@@ -1,0 +1,11 @@
+DateTime	2024-08-26T10:57:29
+ReadFiles	/home/javeria/Downloads/dewgsimdocker/work/20/c41cfa3176d900ca957d78f33844a2/dwgsim_output/24820_2209_1.fq /home/javeria/Downloads/dewgsimdocker/work/20/c41cfa3176d900ca957d78f33844a2/dwgsim_output/24820_2209_2.fq
+Reference	/home/javeria/Downloads/dewgsimdocker/work/fc/4ac3c61a388f03d878165d46e61bab/panaroo_output/pan_genome_reference.fa
+ReferenceSize	2036451
+Software	snippy 4.6.0
+Variant-COMPLEX	881
+Variant-DEL	34
+Variant-INS	28
+Variant-MNP	1
+Variant-SNP	5128
+VariantTotal	6072
